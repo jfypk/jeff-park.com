@@ -1,0 +1,16 @@
+#Dependency directories
+node_modules
+
+#Logs
+logs
+*.log
+npm-debug.log*
+
+#blog themes
+blog/themes
+
+#portfolio assets
+public/assets
+
+#private
+private
