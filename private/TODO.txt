@@ -1,0 +1,13 @@
+Round 2
+- Update scrolling values
+- on hover of portfolio pieces in /work, fill page with main image of project
+- Build three.js sketch for homepage. 
+- fix hover color. Links should be white until they are hovered over. 
+
+Nice to have
+- fix the scroll of my page when minimized
+- add questions to my page (possibly in header of portfolio and at bottom scroll)
+- Build mosaic of my face for /about
+
+
+Each section on a portfolio page should have a max width of 750. But each section should also be equal length...

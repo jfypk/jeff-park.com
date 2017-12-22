@@ -1,0 +1,6 @@
+inspo:
+
+http://werkstatt.fuelthemes.net/werkstatt-developer/#
+http://demo.themes1.com/wp/Pure/cover-page/
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax_percent

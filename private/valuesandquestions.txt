@@ -1,0 +1,60 @@
+{
+    "values": [{
+            "id": 1,
+            "text": "Feel something"
+        },
+        {
+            "id": 2,
+            "text": "The best present is presence"
+        },
+        {
+            "id": 3,
+            "text": "Love over fear, always"
+        },
+        {
+            "id": 4,
+            "text": "Strive for the impossible"
+        },
+        {
+            "id": 5,
+            "text": "Stay grounded"
+        },
+        {
+            "id": 6,
+            "text": "Get comfortable with paradox"
+        },
+        {
+            "id": 7,
+            "text": "Rise up"
+        },
+        {
+            "id": 8,
+            "text": "Be vulnerable"
+        },
+        {
+            "id": 9,
+            "text": "Generosity and gratitude"
+        },
+        {
+            "id": 10,
+            "text": "Pressure is a privilege"
+        }
+    ],
+    "questions": [{
+        "id": 1,
+        "text": "How can we make infrastructure investments sexy?"
+    },
+    {
+        "id": 2,
+        "text": "inefficiencies create excitement. emotions are built on top of inefficiencies. great moments as well. how do we celebrate these emotions in the age of efficiency?"
+    }
+    {
+        "id": 3,
+        "text": "How do we harness our mindlessness in order to build a world of good? Are we mindless because we do not like what we r doing? Are we listless because we have lost hope and faith in what is to come? Inversely, are we mindful when we do what we want? "
+    }
+    
+    }]
+}
+
+
+PCSR - How can we engage an audience on the technical research of an NYU Ph.D candidate? 
