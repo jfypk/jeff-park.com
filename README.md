@@ -2,7 +2,7 @@
 This portfolio is written using **Node.js**, **EJS**, **HTML**, **SASS**. 
 The blog is written using (hexo.js)[https://hexo.io/].
 
-#Creating a new blog post:
+# Creating a new blog post:
 
 Create a new blog post with: 
 
@@ -22,7 +22,7 @@ To deploy to remote sites:
 hexo deploy
 ```
 
-#Creating a new portfolio page: 
+# Creating a new portfolio page: 
 
 Edit the server.js
 
