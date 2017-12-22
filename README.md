@@ -1,18 +1,38 @@
 # jeff-park.com
-Code for my website
+This portfolio is written using **Node.js**, **EJS**, **HTML**, **SASS**. 
+The blog is written using (hexo.js)[https://hexo.io/].
 
-Here are instructions
+#Creating a new blog post:
 
-This portfolio is written using Node.js, EJS. 
-The blog is written using hexo.js
+Create a new blog post with: 
 
-To create a new blog post:
+```
+hexo new "title of blog" 
+```
 
-To create a new portfolio page: 
+Generate the static file with:
 
-add the following to server.js
+```
+hexo generate
+```
 
-and then create a new file under /views/pages/work
+To deploy to remote sites:
+
+```
+hexo deploy
+```
+
+#Creating a new portfolio page: 
+
+Edit the server.js
+
+```
+app.get('/path/to/page/URL', function(req, res) {
+    res.render('pages/work/nameofEJSfile');
+});
+```
+
+Create a corresponding EJS view file under /views/pages/work
 
 sample.ejs
 ```
