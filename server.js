@@ -50,6 +50,14 @@ app.get('/work/shaders', function(req, res) {
     res.render('pages/work/shaders');
 });
 
+app.get('/work/ocular', function(req, res) {
+    res.render('pages/work/ocular');
+})
+
+app.get('/work/deliverance', function(req, res) {
+    res.render('pages/work/deliverance');
+})
+
 app.use(express.static('public'));
 app.use('/blog', express.static('blog/public'));
 
