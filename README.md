@@ -1,6 +1,6 @@
 # jeff-park.com
 This portfolio is written using **Node.js**, **EJS**, **HTML**, **SASS**. 
-The blog is written using (hexo.js)[https://hexo.io/].
+The blog is written using [hexo.js](https://hexo.io/).
 
 #   Creating a new blog post:
 
