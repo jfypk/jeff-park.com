@@ -2,7 +2,7 @@
 This portfolio is written using **Node.js**, **EJS**, **HTML**, **SASS**. 
 The blog is written using (hexo.js)[https://hexo.io/].
 
-# Creating a new blog post:
+#   Creating a new blog post:
 
 Create a new blog post with: 
 
@@ -54,10 +54,11 @@ sample.ejs
 </html>
 ```
 
-To run a local version of the portfolio: 
+# Run a local version of the portfolio: 
 
 ```
 npm install
-node server
+nodemon server
+npm run build-css
 ```
 
