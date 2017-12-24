@@ -30,10 +30,6 @@ app.get('/work/accessnyc', function(req, res) {
     res.render('pages/work/accessnyc');
 });
 
-app.get('/work/brainrhythms', function(req, res) {
-    res.render('pages/work/brainrhythms');
-});
-
 app.get('/work/swellbeats', function(req, res) {
     res.render('pages/work/swellbeats');
 });
@@ -48,6 +44,14 @@ app.get('/work/unrealunity', function(req, res) {
 
 app.get('/work/shaders', function(req, res) {
     res.render('pages/work/shaders');
+});
+
+app.get('/work/ocular', function(req, res) {
+    res.render('pages/work/ocular');
+});
+
+app.get('/work/deliverance', function(req, res) {
+    res.render('pages/work/deliverance');
 });
 
 app.use(express.static('public'));
