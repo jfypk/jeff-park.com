@@ -6,6 +6,7 @@ var app = express();
 //set up node-sass https://www.npmjs.com/package/node-sass
 
 // set the view engine to ejs
+app.set('views', __dirname + '/views')
 app.set('view engine', 'ejs');
 
 // index page 
@@ -20,6 +21,14 @@ app.get('/about', function(req, res) {
 
 app.get('/work/', function(req, res) {
     res.render('pages/work');
+});
+
+app.get('/work/ocular', function(req, res) {
+    res.render('pages/work/ocular.ejs');
+});
+
+app.get('/work/deliverance', function(req, res) {
+    res.render('pages/work/deliverance.ejs');
 });
 
 app.get('/work/liquidlight', function(req, res) {
@@ -44,14 +53,6 @@ app.get('/work/unrealunity', function(req, res) {
 
 app.get('/work/shaders', function(req, res) {
     res.render('pages/work/shaders');
-});
-
-app.get('/work/ocular', function(req, res) {
-    res.render('pages/work/ocular');
-});
-
-app.get('/work/deliverance', function(req, res) {
-    res.render('pages/work/deliverance');
 });
 
 app.use(express.static('public'));

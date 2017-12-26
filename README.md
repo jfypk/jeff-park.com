@@ -62,3 +62,18 @@ nodemon server
 npm run build-css
 ```
 
+# ssh into the console with 
+
+```
+ssh jpark@<IP>
+```
+
+Configure additional requests by editing location block at 
+```
+sudo nano /etc/nginx/sites-available/default
+```
+Then check syntax errors and then restart Nginx
+```
+sudo nginx -t
+sudo systemctl restart nginx
+```

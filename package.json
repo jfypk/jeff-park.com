@@ -1,23 +1,23 @@
 {
-    "name": "jeff-park.com",
-    "version": "0.0.1",
-    "description": "Jeff Park's portfolio",
-    "homepage": "http://www.jeff-park.com",
-    "main": "server.js",
-    "scripts": {
-        "start": "nodemon server.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
-        "watch-css": "nodemon -e scss -x \"npm run build-css\""
-    },
-    "author": "Jeff Park",
-    "license": "MIT",
-    "dependencies": {
-        "ejs": "^2.5.6",
-        "express": "^4.15.3"
-    },
-    "devDependencies": {
-        "node-sass": "^4.5.3",
-        "nodemon": "^1.14.3"
-    }
+  "name": "jeff-park.com",
+  "version": "0.0.1",
+  "description": "Jeff Park's portfolio",
+  "homepage": "http://www.jeff-park.com",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss public/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Jeff Park",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.3"
+  }
 }
