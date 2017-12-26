@@ -9,6 +9,19 @@ npm-debug.log*
 #blog themes
 #blog/themes
 
+#ssh
+.ssh/
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.cloud-locale-test.skip
+.npm/
+.pm2/
+.profile
+.sudo_as_admin_successful
+views/pages/work/.DS_Store
+
 #portfolio assets
 #public/assets
 
