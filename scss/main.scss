@@ -83,25 +83,23 @@ body {
         text-align: center;
     }
     .portfolio-title {
+        font-family: $title-font-stack;
+        text-align: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        color: $white;
         h1 {
-            max-height: 60px;
-            position: relative;
-            color: $yellow;
-            font-family: $title-font-stack;
-            font-size: 50px;
-            text-align: center;
+            font-size: 28px;
         }
-        font-family: $body-font-stack;
+        h3 { 
+            font-size: 18px;
+         }
     }
     .portfolio-text {
         font-size: 15px;
         margin-left: 200px;
         margin-right: 200px;
         color: $white;
-        h1 {
-            font-family: $title-font-stack;
-            text-align: center;
-        }
     }
     .portfolio-image {
         img {

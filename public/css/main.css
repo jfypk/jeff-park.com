@@ -58,22 +58,20 @@ body {
     height: 25px;
     text-align: center; }
   .body-container .portfolio-title {
-    font-family: "Open Sans", sans-serif; }
+    font-family: "Bungee Hairline", cursive;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #eee; }
     .body-container .portfolio-title h1 {
-      max-height: 60px;
-      position: relative;
-      color: #FFCC5C;
-      font-family: "Bungee Hairline", cursive;
-      font-size: 50px;
-      text-align: center; }
+      font-size: 28px; }
+    .body-container .portfolio-title h3 {
+      font-size: 18px; }
   .body-container .portfolio-text {
     font-size: 15px;
     margin-left: 200px;
     margin-right: 200px;
     color: #eee; }
-    .body-container .portfolio-text h1 {
-      font-family: "Bungee Hairline", cursive;
-      text-align: center; }
   .body-container .portfolio-image img {
     display: block;
     margin: auto;
