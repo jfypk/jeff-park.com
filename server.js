@@ -19,10 +19,6 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 });
 
-app.get('/work/', function(req, res) {
-    res.render('pages/work');
-});
-
 app.get('/work/ocular', function(req, res) {
     res.render('pages/work/ocular.ejs');
 });
@@ -45,10 +41,6 @@ app.get('/work/swellbeats', function(req, res) {
 
 app.get('/work/pinocchio', function(req, res) {
     res.render('pages/work/pinocchio');
-});
-
-app.get('/work/unrealunity', function(req, res) {
-    res.render('pages/work/unrealunity');
 });
 
 app.get('/work/shaders', function(req, res) {

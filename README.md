@@ -59,7 +59,7 @@ sample.ejs
 ```
 npm install
 nodemon server
-npm run build-css
+npm run watch-css
 ```
 
 # ssh into the console with 

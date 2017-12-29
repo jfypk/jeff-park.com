@@ -6,19 +6,19 @@
 <head>
     <% include ../partials/head %>
 </head>
-<body id="body-container">
-    <div class="name">
-        Jeff Park
-    </div>
-
-    <div class="home-links">
-        <a id="about" href="/about">About</a>
-        <a id="blog" href="/blog">Blog</a>
-        <a id="work" href="/work">Work</a>
-    </div>
-
-    <div class="values">
-        <h4>scrolling values</h1>
-    </div>
+<body>
+    <section class="container">
+        <div class="nav-container">
+            <% include ../partials/navi %>
+        </div>
+        <div class="body-container">
+            <div class="values">
+                <h4>Your vibe attracts your tribe</h4>
+            </div>
+        </div>
+    </section> 
 </body>
+<footer>
+    <% include ../partials/footer %>
+</footer>
 </html>
