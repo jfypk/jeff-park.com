@@ -1,165 +1,103 @@
 body {
   background-color: #111;
   overflow-x: hidden; }
+  body a:hover {
+    color: #FFCC5C; }
+  body a {
+    color: #63A9D8;
+    text-decoration: none; }
 
-nav {
-  color: #FFCC5C;
-  font-family: "Alegreya SC", serif; }
-  nav .nav-container {
+.container {
+  width: 99%;
+  height: 100vh;
+  margin: auto;
+  padding: 10px; }
+
+.nav-container {
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: fixed; }
+  .nav-container nav .name {
+    font-family: "Bungee Hairline", cursive;
+    font-size: 40px; }
+    .nav-container nav .name a:hover {
+      color: #eee; }
+    .nav-container nav .name a {
+      color: #eee; }
+  .nav-container nav .nav-settings {
+    font-family: "Bungee Hairline", cursive;
     position: fixed;
-    right: 1%;
-    bottom: 8%; }
-    nav .nav-container .nav-list {
+    left: 1%; }
+    .nav-container nav .nav-settings .nav-list {
+      position: fixed;
+      top: 20%;
+      margin: 0;
+      font-size: 20px;
       list-style-type: none;
-      text-align: right; }
-      nav .nav-container .nav-list li a {
-        color: #FFCC5C; }
-      nav .nav-container .nav-list li a:visited {
-        color: #FFCC5C;
-        text-decoration: none; }
+      text-align: left; }
+      .nav-container nav .nav-settings .nav-list li {
+        list-style-type: none; }
 
-#body-container {
-  margin: 0;
-  font-family: "Alegreya SC", serif;
-  padding-top: 50px; }
-  #body-container .name {
-    position: absolute;
-    font-size: 60px;
-    top: 8%;
-    left: 50%;
-    height: 54px;
-    width: 248px;
-    color: #333;
-    margin: -27px 0 0 -124px; }
-  #body-container .home-links {
+.body-container {
+  margin-left: 20%;
+  height: 100%; }
+  .body-container .IG {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto; }
+    .body-container .IG iframe {
+      padding-bottom: 15px; }
+  .body-container .values {
+    position: relative;
+    top: 23%;
+    font-family: "Bungee Hairline", cursive;
     font-size: 40px;
-    color: #eee;
-    z-index: 1; }
-    #body-container .home-links a {
-      text-decoration: none;
-      color: #eee; }
-    #body-container .home-links a:visited {
-      color: #eee; }
-    #body-container .home-links a:hover {
-      color: #FFCC5C; }
-    #body-container .home-links #work {
-      position: absolute;
-      top: 30%;
-      left: 50%;
-      height: 32px;
-      width: 110px;
-      margin: -16px 0 0 -55px; }
-    #body-container .home-links #about {
-      position: absolute;
-      top: 70%;
-      left: 50%;
-      height: 32px;
-      width: 116px;
-      margin: -16px 0 0 -58px; }
-    #body-container .home-links #blog {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      height: 32px;
-      width: 90px;
-      margin: -16px 0 0 -45px; }
-  #body-container .values {
-    color: #333;
-    position: fixed;
-    bottom: 8%;
-    width: 100%;
+    color: #FFCC5C;
     height: 25px;
     text-align: center; }
-
-#work-container {
-  font-family: "Alegreya SC", serif; }
-  #work-container #selected-works {
-    color: #333;
-    font-size: 50px;
-    position: fixed;
-    top: 29%;
-    left: 7%; }
-  #work-container #explorations {
-    color: #333;
-    font-size: 50px;
-    position: fixed;
-    bottom: 29%;
-    left: 7%; }
-  #work-container #work-links {
-    list-style-type: none;
-    text-decoration: underline;
-    position: fixed;
-    top: 15%;
-    width: 100%;
-    text-align: center; }
-    #work-container #work-links a {
-      color: #eee; }
-    #work-container #work-links a:visited {
-      color: #eee; }
-    #work-container #work-links li {
-      padding: 10px; }
-      #work-container #work-links li .CT {
-        text-decoration-color: #FF6254;
-        -moz-text-decoration-color: #FF6254; }
-        #work-container #work-links li .CT a:hover {
-          color: #FF6254; }
-      #work-container #work-links li .ID {
-        -moz-text-decoration-color: #63A9D8;
-        /* Code for Firefox */
-        text-decoration-style: #63A9D8; }
-        #work-container #work-links li .ID a:hover {
-          color: #63A9D8; }
-      #work-container #work-links li .PMM {
-        -moz-text-decoration-color: #FFCC5C;
-        /* Code for Firefox */
-        text-decoration-style: #FFCC5C; }
-        #work-container #work-links li .PMM a:hover {
-          color: #FFCC5C; }
-  #work-container #exploration-links {
-    list-style-type: none;
-    text-decoration: underline;
-    position: fixed;
-    top: 60%;
-    width: 100%;
-    text-align: center; }
-    #work-container #exploration-links a {
-      color: #eee; }
-    #work-container #exploration-links a:visited {
-      color: #eee; }
-    #work-container #exploration-links li {
-      padding: 10px; }
-      #work-container #exploration-links li .CT {
-        text-decoration-color: #FF6254;
-        -moz-text-decoration-color: #FF6254; }
-        #work-container #exploration-links li .CT a:hover {
-          color: #FF6254; }
-      #work-container #exploration-links li .ID {
-        -moz-text-decoration-color: #63A9D8;
-        /* Code for Firefox */
-        text-decoration-style: #63A9D8; }
-        #work-container #exploration-links li .ID a:hover {
-          color: #63A9D8; }
-      #work-container #exploration-links li .PMM {
-        -moz-text-decoration-color: #FFCC5C;
-        /* Code for Firefox */
-        text-decoration-style: #FFCC5C; }
-        #work-container #exploration-links li .PMM a:hover {
-          color: #FFCC5C; }
+  .body-container .portfolio-title {
+    font-family: "Bungee Hairline", cursive;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #eee; }
+    .body-container .portfolio-title h1 {
+      font-size: 28px; }
+    .body-container .portfolio-title h3 {
+      font-size: 18px; }
+  .body-container .portfolio-text {
+    font-size: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #eee; }
+  .body-container .portfolio-image img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    max-width: 40vw;
+    max-height: 40vw;
+    width: auto;
+    height: auto; }
+  .body-container iframe {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+    max-width: 40vw;
+    max-height: 40vw;
+    border: none; }
 
 #about-container {
   background-image: url("/assets/about/selfportrait.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: fixed;
-  font-family: "Alegreya SC", serif; }
-  #about-container #name-plate {
-    color: #333;
-    font-size: 50px;
-    position: absolute;
-    top: 30%;
-    left: 7%; }
+  background-position: fixed !important;
+  font-family: "Bungee Hairline", cursive; }
   #about-container #bio {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Bungee Hairline", cursive;
     color: #eee;
     font-size: 15px;
     height: 200px;
@@ -167,52 +105,20 @@ nav {
     position: absolute;
     top: 19%;
     right: 30%; }
-    #about-container #bio a:visited {
-      color: #eee; }
-
-.portfolio-container {
-  background-color: #111;
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-  padding: 0; }
-  .portfolio-container .title-container h1 {
-    max-height: 60px;
-    position: relative;
-    color: #eee;
-    font-family: "Alegreya SC", serif;
-    font-size: 50px;
-    left: 7%; }
-  .portfolio-container .portfolio-image img {
-    max-width: 100vw;
-    width: auto;
-    height: auto;
-    max-height: 100vw; }
-  .portfolio-container .portfolio-text {
-    margin: 200px 200px;
-    height: 300px;
-    max-height: 300px;
-    color: #eee; }
-    .portfolio-container .portfolio-text .video {
-      position: relative;
-      margin: 0 auto;
-      left: 25%; }
-      .portfolio-container .portfolio-text .video iframe {
-        width: 640px;
-        height: 320px;
-        border: none; }
 
 .footer-copyright {
-  font-family: "Alegreya SC", serif;
+  font-family: "Bungee Hairline", cursive;
   position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 25px;
-  color: #333;
+  color: #eee;
   text-align: center; }
 
 #uc {
   margin: 200px auto;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bungee Hairline", cursive;
   font-size: 100px;
   color: #FF6254;
   text-align: center; }
