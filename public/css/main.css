@@ -95,7 +95,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: fixed !important;
-  font-family: "Bungee Hairline", cursive; }
+  font-family: "Bungee Hairline", cursive;
+  padding: 10px; }
   #about-container #bio {
     font-family: "Bungee Hairline", cursive;
     color: #eee;
