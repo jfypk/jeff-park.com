@@ -4,19 +4,20 @@ $red: #FF6254;
 $blue: #63A9D8; //2bbc8a
 $yellow: #FFCC5C;
 $grey: #333;
-$title-font-stack: 'Bungee Hairline', cursive;
-$body-font-stack: 'Open Sans', sans-serif;
-
+$title-font-stack: 'Bungee Hairline',
+cursive;
+$body-font-stack: 'Montserrat',
+sans-serif;
 body {
     background-color: $black;
     overflow-x: hidden;
     a:hover {
-            color: $yellow;
-        }
-        a {
-            color: $blue;
-            text-decoration: none;
-        }
+        color: $yellow;
+    }
+    a {
+        color: $blue;
+        text-decoration: none;
+    }
 }
 
 .container {
@@ -36,11 +37,11 @@ body {
             a:hover {
                 color: $white;
             }
-            a { 
+            a {
                 color: $white;
-            }    
+            }
             font-family: $title-font-stack;
-            font-size:40px;        
+            font-size:40px;
         }
         .nav-settings {
             font-family: $title-font-stack;
@@ -50,7 +51,7 @@ body {
                 position: fixed;
                 top: 20%;
                 margin: 0;
-                font-size:20px;
+                font-size: 20px;
                 list-style-type: none;
                 text-align: left;
                 li {
@@ -77,7 +78,7 @@ body {
         position: relative;
         top: 23%;
         font-family: $title-font-stack;
-        font-size:40px;
+        font-size: 40px;
         color: $yellow;
         height: 25px;
         text-align: center;
@@ -91,12 +92,13 @@ body {
         h1 {
             font-size: 28px;
         }
-        h3 { 
+        h3 {
             font-size: 18px;
-         }
+        }
     }
     .portfolio-text {
-        font-size: 15px;
+        font-family: $body-font-stack;
+        font-size: 12px;
         margin-left: 200px;
         margin-right: 200px;
         color: $white;
@@ -114,14 +116,14 @@ body {
         }
     }
     iframe {
-            display: block;
-            margin: 0 auto;
-            width: 560px;
-            height: 315px;
-            max-width: 40vw;
-            max-height: 40vw;
-            border: none;
-        }
+        display: block;
+        margin: 0 auto;
+        width: 560px;
+        height: 315px;
+        max-width: 40vw;
+        max-height: 40vw;
+        border: none;
+    }
 }
 
 #about-container {

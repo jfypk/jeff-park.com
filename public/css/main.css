@@ -68,7 +68,8 @@ body {
     .body-container .portfolio-title h3 {
       font-size: 18px; }
   .body-container .portfolio-text {
-    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
     margin-left: 200px;
     margin-right: 200px;
     color: #eee; }
