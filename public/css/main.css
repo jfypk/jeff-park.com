@@ -8,6 +8,7 @@ body {
     text-decoration: none; }
 
 .container {
+  z-index: -1;
   width: 99%;
   height: 100vh;
   margin: auto;
@@ -20,7 +21,9 @@ body {
   position: fixed; }
   .nav-container nav .name {
     font-family: "Bungee Hairline", cursive;
-    font-size: 40px; }
+    font-size: 40px;
+    position: fixed;
+    top: 2%; }
     .nav-container nav .name a:hover {
       color: #eee; }
     .nav-container nav .name a {
