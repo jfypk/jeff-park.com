@@ -78,10 +78,11 @@ body {
         }
     }
     .values {
-        position: relative;
-        top: 23%;
+        position: fixed;
+        top: 15%;
+        left: 55%;
         font-family: $title-font-stack;
-        font-size: 40px;
+        font-size: 18px;
         color: $yellow;
         height: 25px;
         text-align: center;

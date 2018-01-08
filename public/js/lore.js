@@ -11,7 +11,7 @@ function init() {
 	container = document.createElement( 'div' );
 	document.body.appendChild( container );
 
-	camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 200 );
+	camera = new THREE.PerspectiveCamera( 15, window.innerWidth / window.innerHeight, 1, 6000 );
 	scene = new THREE.Scene();
 
 	// grid
@@ -52,7 +52,7 @@ function init() {
 	
 	// controls, camera
 	controls = new THREE.OrbitControls( camera, renderer.domElement );
-	controls.target.set( -3, 0, 0 );
+	controls.target.set( -2, 0, 0 );
 	camera.position.set( 15, 15, 20 );
 	controls.update();
 	

@@ -53,10 +53,11 @@ body {
     .body-container .IG iframe {
       padding-bottom: 15px; }
   .body-container .values {
-    position: relative;
-    top: 23%;
+    position: fixed;
+    top: 15%;
+    left: 55%;
     font-family: "Bungee Hairline", cursive;
-    font-size: 40px;
+    font-size: 18px;
     color: #FFCC5C;
     height: 25px;
     text-align: center; }
