@@ -21,6 +21,7 @@ body {
 }
 
 .container {
+    z-index: -1;
     width: 99%;
     height: 100vh;
     margin: auto;
@@ -34,14 +35,16 @@ body {
     position: fixed;
     nav {
         .name {
+            font-family: $title-font-stack;
+            font-size:40px;
+            position: fixed;
+            top: 2%;
             a:hover {
                 color: $white;
             }
             a {
                 color: $white;
             }
-            font-family: $title-font-stack;
-            font-size:40px;
         }
         .nav-settings {
             font-family: $title-font-stack;
@@ -75,10 +78,11 @@ body {
         }
     }
     .values {
-        position: relative;
-        top: 23%;
+        position: fixed;
+        top: 15%;
+        left: 55%;
         font-family: $title-font-stack;
-        font-size: 40px;
+        font-size: 18px;
         color: $yellow;
         height: 25px;
         text-align: center;
