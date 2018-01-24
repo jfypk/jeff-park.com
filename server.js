@@ -27,6 +27,10 @@ app.get('/work/deliverance', function(req, res) {
     res.render('pages/work/deliverance.ejs');
 });
 
+app.get('/work/deliverance/full', function(req, res) {
+    res.render('pages/work/deliverance-full.ejs');
+});
+
 app.get('/work/liquidlight', function(req, res) {
     res.render('pages/work/liquidlight');
 });
