@@ -28,6 +28,7 @@ function init() {
 	var onProgress = function( xhr ) {
 		if ( xhr.lengthComputable ) {
 			var percentComplete = xhr.loaded / xhr.total * 100;
+			//change this to print on screen...
 			console.log( Math.round( percentComplete, 2 ) + '% downloaded' );
 		}
 	};
@@ -76,14 +77,14 @@ function onWindowResize() {
 }
 //
 function animate() {
-requestAnimationFrame( animate );
-if ( mixers.length > 0 ) {
-for ( var i = 0; i < mixers.length; i ++ ) {
-mixers[ i ].update( clock.getDelta() );
-}
-}
-render();
+	requestAnimationFrame( animate );
+	if ( mixers.length > 0 ) {
+		for ( var i = 0; i < mixers.length; i ++ ) {
+			mixers[ i ].update( clock.getDelta() );
+		}
+	}
+	render();
 }
 function render() {
-renderer.render( scene, camera );
+	renderer.render( scene, camera );
 }
