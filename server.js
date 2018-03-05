@@ -20,7 +20,7 @@ app.get('/about', function(req, res) {
 });
 
 app.get('/yuna', function(req, res) {
-    res.render('pages/yuna');
+    res.render('pages/yuna.ejs');
 });
 
 app.get('/work/ocular', function(req, res) {
