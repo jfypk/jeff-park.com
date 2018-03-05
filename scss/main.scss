@@ -4,9 +4,10 @@ $red: #FF6254;
 $blue: #63A9D8; //2bbc8a
 $yellow: #FFCC5C;
 $grey: #333;
+$light-grey: #ccc;
 $title-font-stack: 'Bungee Hairline',
 cursive;
-$body-font-stack: 'Montserrat',
+$body-font-stack: 'Open Sans',
 sans-serif;
 body {
     background-color: $black;
@@ -36,7 +37,7 @@ body {
     nav {
         .name {
             font-family: $title-font-stack;
-            font-size:40px;
+            font-size: 40px;
             position: fixed;
             top: 2%;
             a:hover {
@@ -90,22 +91,23 @@ body {
     .portfolio-title {
         font-family: $title-font-stack;
         text-align: center;
-        margin-left: 200px;
-        margin-right: 200px;
-        color: $white;
+        margin-left: 150px;
+        margin-right: 150px;
+        color: $light-grey;
         h1 {
-            font-size: 28px;
+            font-size: 40px;
         }
         h3 {
-            font-size: 18px;
+            font-size: 20px;
         }
     }
     .portfolio-text {
         font-family: $body-font-stack;
-        font-size: 12px;
-        margin-left: 200px;
-        margin-right: 200px;
-        color: $white;
+        font-style: light;
+        font-size: 15px;
+        margin-left: 250px;
+        margin-right: 250px;
+        color: $light-grey;
     }
     .portfolio-image {
         img {
