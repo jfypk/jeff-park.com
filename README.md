@@ -77,3 +77,11 @@ Then check syntax errors and then restart Nginx
 sudo nginx -t
 sudo systemctl restart nginx
 ```
+
+To fuq w/ the server.js file:
+```
+pm2 delete X
+pm2 start X
+pm2 stop X
+pm2 restart X
+```
