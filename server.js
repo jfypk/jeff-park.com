@@ -43,6 +43,10 @@ app.get('/work/accessnyc', function(req, res) {
     res.render('pages/work/accessnyc');
 });
 
+app.get('/work/brainrhythms', function(req, res) {
+    res.render('pages/work/brainrhythms');
+});
+
 app.get('/work/swellbeats', function(req, res) {
     res.render('pages/work/swellbeats');
 });
