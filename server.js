@@ -51,6 +51,10 @@ app.get('/work/swellbeats', function(req, res) {
     res.render('pages/work/swellbeats');
 });
 
+app.get('/work/responsibly', function(req, res) {
+    res.render('pages/work/responsibly');
+});
+
 app.get('/work/pinocchio', function(req, res) {
     res.render('pages/work/pinocchio');
 });
