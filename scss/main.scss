@@ -139,6 +139,7 @@ body {
         .portfolio-video {
             padding-top: 25px;
             grid-column: 2;
+            max-width: 720px;
             img {
                 width: 100%;
             }
@@ -149,6 +150,7 @@ body {
         .portfolio-img-grid {
             padding-top: 25px;
             grid-column: 2;
+            max-width: 720px;
             img {
                 width: 100%;
                 max-height: 250px;
