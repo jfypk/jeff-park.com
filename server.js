@@ -19,10 +19,6 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 });
 
-app.get('/yuna', function(req, res) {
-    res.render('pages/yuna.ejs');
-});
-
 app.get('/work/ocular', function(req, res) {
     res.render('pages/work/ocular');
 });
