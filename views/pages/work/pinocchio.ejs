@@ -9,39 +9,31 @@
 </head>
 
 <body>
-	<section class="container">
-		<div class="nav-container">
-			<% include ../../partials/navi %>
-		</div>
-		<div class="body-container">
-			<div class="portfolio-title">
-                <h1>How can we use VR to create playful and fantastical experiences?</h1>
-                <h3>Unreal Engine | OSC | Arduino</h3>
-            </div>
-			<div class="portfolio-text">
-                <p>What's it like to be Pinocchio -- trapped in the whale's stomach, unable to hide a lie? Answer questions truthfully before the whale blows you out of its blowhole to escape and become a real boy! </p>
-                <p>PinocchioVR is a virtual reality game that explores the in-the-headset and out-of-headset experience. The viewer is Pinocchio, but those waiting to try the VR experience can walk up to a microphone and ask the viewer questions. These questions are ported into the game as the whale's voice, while a heart sensor detects slight changes in pulse to detect whether Pinocchio's answers are the truth or a lie.</p>
-            </div>
-            <!-- Need finished product video -->
-            <div class="portfolio-title">
-                <h3>Process</h3>
-            </div>
-			<div class="portfolio-image">
+    <div id="portfolio-container">
+        <div class="portfolio-title">
+            <h3>Pinocchio VR</h3>
+            <p>Unreal Engine | Arduino | OSC<br>Spring 2017</p>
+        </div>
+        <div class="portfolio-desc">
+            <p>PinocchioVR is a virtual reality game that explores the in-the-headset and out-of-headset experience. The viewer is Pinocchio, trapped in a whale's stomach. Those waiting in line to try the VR experience can walk up to a microphone and ask the viewer questions. These questions are ported into the game as the whale's voice, and a heart sensor detects slight changes in pulse to detect whether Pinocchio's answers are the truth or a lie. Answer questions truthfully before the whale blows you out of its blowhole to escape and become a real boy!</p>
+            <p>In collaboration with DongChan Kim and Anastasis Germanidis. Special thanks to Todd Bryant.</p>
+            <p>This piece was shown at the NYU ITP Show Spring 2017.</p>  
+        </div>
+        <div class="portfolio-img-grid">
+            <div id="imgL">
                 <img src="/assets/pinocchio/pinocchio-1.png" alt="Pinocchio 1"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/pinocchio/pinocchio-2.png" alt="Pinocchio 2"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgL">
                 <img src="/assets/pinocchio/pinocchio-3.png" alt="Pinocchio 3"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/pinocchio/pinocchio-4.png" alt="Pinocchio 4"></img>
             </div>
-            <div class="portfolio-text">
-                <p>Created using Unreal Engine 4, OSC, and Arduino. Special thanks to Todd Bryant. </p>
-                <p>In collaboration with DongChan Kim and Anastasis Germanidis.</p>
-            </div>
-		</div>
-	</section>
+        </div>
+        <% include ../../partials/footer.ejs %>
+	</div>
 </body>
+</html>

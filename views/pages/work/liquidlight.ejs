@@ -9,37 +9,34 @@
 </head>
 
 <body>
-    <section class="container">
-        <div class="nav-container">
-            <% include ../../partials/navi %>
+    <div id="portfolio-container">
+        <div class="portfolio-title">
+            <h3>Liquid Light</h3>
+            <p>Arduino | Neopixels | MPU-6050<br>Fall 2016</p>
         </div>
-        <div class="body-container">
-            <div class="portfolio-title">
-                <h1>How can technology remind us of our natural roots?</h1>
-                <h3>Arduino | Neopixels | MPU-6050</h3>
-            </div>
-            <div class="portfolio-text">
-                <p>Liquid Light, in collaboration with Yeseul Song, is an interactive toy designed to simulate fluid dynamics with light. This piece explores how technology can refocus our attention back to the laws of nature that surround us and remind us of the playful nature of technology. Our project serves as a prototype for a toy in which multiple components of light can interact with one another (e.g. pouring light from one box to another).</p>
-            </div>
-            <iframe src="https://player.vimeo.com/video/197146445"></iframe>
-            <div class="portfolio-image">
+        <div class="portfolio-desc">
+            <p>Liquid Light, in collaboration with <a href="https://yeseul.com">Yeseul Song</a>, is an interactive toy designed to simulate fluid dynamics with light. This piece explores how technology can refocus our attention back to the laws of nature that surround us and remind us of the playful nature of technology. Our project serves as a prototype for a toy in which multiple components of light can interact with one another (e.g. pouring light from one box to another).</p>
+            <p>Special thanks to Danny Rozin.</p>
+            <p>Liquid Light was showcased at the NYU ITP Winter Show in 2017.</p>
+        </div>
+        <div class="portfolio-video">
+            <iframe src="https://player.vimeo.com/video/197146445" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="portfolio-img-grid">
+            <div id="imgL">
                 <img src="/assets/liquidlight/liquid_light1.jpg" alt="Liquid-light-1"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/liquidlight/liquid_light2.jpg" alt="Liquid-light-2"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgL">
                 <img src="/assets/liquidlight/liquid_light3.jpg" alt="Liquid-light-3"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/liquidlight/liquid_light4.jpg" alt="Liquid-light-4"></img>
             </div>
-            <!-- Needs process photos -->
-            <div class="portfolio-text">
-                <p>Special thanks to Danny Rozin.</p>
-                <p>Liquid Light was showcased at the NYU ITP Winter Show in 2017.</p>
-            </div>
         </div>
-    </section>
+        <% include ../../partials/footer.ejs %>
+    </div>
 </body>
 </html>
