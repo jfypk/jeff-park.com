@@ -30,6 +30,7 @@ body {
     body #home-container #home-greeting {
       font-family: "Menlo Regular", sans-serif;
       font-size: 30px;
+      color: #555;
       grid-column: 2;
       grid-row: 2; }
     body #home-container #home-intro {
@@ -45,6 +46,9 @@ body {
       color: #aaa;
       grid-column: 2;
       grid-row: 4; }
+      body #home-container #footer #social img {
+        width: 12px;
+        height: 12px; }
   body #work-container {
     height: 100%;
     display: grid;
@@ -69,7 +73,11 @@ body {
       font-size: 12px;
       text-align: center;
       color: #aaa;
+      padding-top: 20px;
       grid-column: 2; }
+      body #work-container #footer #social img {
+        width: 12px;
+        height: 12px; }
   body #portfolio-container {
     height: 100%;
     display: grid;
@@ -119,4 +127,59 @@ body {
       font-size: 12px;
       text-align: center;
       color: #aaa;
+      padding-top: 20px;
       grid-column: 2; }
+      body #portfolio-container #footer #copyright {
+        margin: 2px; }
+      body #portfolio-container #footer #social img {
+        width: 12px;
+        height: 12px; }
+
+.menu-toggle {
+  cursor: pointer;
+  position: fixed;
+  right: 3%;
+  top: 3%; }
+  .menu-toggle .bar1,
+  .menu-toggle .bar2,
+  .menu-toggle .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #555;
+    margin: 6px 0;
+    transition: 0.4s; }
+  .menu-toggle .menu-list {
+    text-align: right; }
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px); }
+
+.change .bar2 {
+  opacity: 0; }
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px); }
+
+#menu {
+  font-family: "Menlo Regular", sans-serif;
+  text-align: left;
+  font-size: 16px;
+  display: none;
+  position: fixed;
+  right: 1%;
+  top: 5%;
+  padding: 0em 2em 1em 0em; }
+  #menu a {
+    color: #555; }
+  #menu #submenu {
+    font-family: "Menlo Regular", sans-serif;
+    font-size: 12px;
+    padding-left: 1em;
+    text-align: left; }
+    #menu #submenu a {
+      text-decoration: none; }
+  #menu #social img {
+    width: 12px;
+    height: 12px; }

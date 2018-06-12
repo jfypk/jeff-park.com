@@ -79,6 +79,10 @@ app.get('/work/longboard', function(req, res) {
     res.render('pages/work/longboard');
 });
 
+app.get('/wantstodostuff', function(req, res) {
+    res.render('pages/bucketlist');
+});
+
 app.use(express.static('public'));
 app.use('/blog', express.static('blog/public'));
 
