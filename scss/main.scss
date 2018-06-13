@@ -158,10 +158,10 @@ body {
             display: grid;
             grid-gap: 4px;
             grid-template-columns: 1fr 1fr;
-            #img1 {
+            #imgL {
                 grid-column: 1;
             }
-            #img2 {
+            #imgR {
                 grid-column: 2;
             }
         }
