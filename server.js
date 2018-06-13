@@ -14,13 +14,9 @@ app.get('/', function(req, res) {
     res.render('pages/index');
 });
 
-// about page 
-app.get('/about', function(req, res) {
-    res.render('pages/about');
-});
-
-app.get('/yuna', function(req, res) {
-    res.render('pages/yuna.ejs');
+// work page 
+app.get('/work', function(req, res) {
+    res.render('pages/work');
 });
 
 app.get('/work/ocular', function(req, res) {
@@ -47,10 +43,6 @@ app.get('/work/brainrhythms', function(req, res) {
     res.render('pages/work/brainrhythms');
 });
 
-app.get('/work/swellbeats', function(req, res) {
-    res.render('pages/work/swellbeats');
-});
-
 app.get('/work/responsibly', function(req, res) {
     res.render('pages/work/responsibly');
 });
@@ -61,6 +53,34 @@ app.get('/work/pinocchio', function(req, res) {
 
 app.get('/work/shaders', function(req, res) {
     res.render('pages/work/shaders');
+});
+
+app.get('/work/dress', function(req, res) {
+    res.render('pages/work/dress');
+});
+
+app.get('/work/glitch', function(req, res) {
+    res.render('pages/work/glitch');
+});
+
+app.get('/work/fogg', function(req, res) {
+    res.render('pages/work/fogg');
+});
+
+app.get('/work/crystal', function(req, res) {
+    res.render('pages/work/crystal');
+});
+
+app.get('/work/hipchat', function(req, res) {
+    res.render('pages/work/hipchat');
+});
+
+app.get('/work/longboard', function(req, res) {
+    res.render('pages/work/longboard');
+});
+
+app.get('/wantstodostuff', function(req, res) {
+    res.render('pages/bucketlist');
 });
 
 app.use(express.static('public'));
