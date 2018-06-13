@@ -165,6 +165,17 @@ body {
                 grid-column: 2;
             }
         }
+        .port-navi {
+            grid-column: 2;
+            font-family: $title-font-stack;
+            font-size: 12px;
+            text-align: center;
+            padding-top: 20px;
+            .left-navi,
+            .right-navi {
+                display: inline;
+            }
+        }
         #footer {
             font-family: $title-font-stack;
             font-size: 12px;

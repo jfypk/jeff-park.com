@@ -124,6 +124,15 @@ body {
         grid-column: 1; }
       body #portfolio-container .portfolio-img-grid #imgR {
         grid-column: 2; }
+    body #portfolio-container .port-navi {
+      grid-column: 2;
+      font-family: "Menlo Regular", sans-serif;
+      font-size: 12px;
+      text-align: center;
+      padding-top: 20px; }
+      body #portfolio-container .port-navi .left-navi,
+      body #portfolio-container .port-navi .right-navi {
+        display: inline; }
     body #portfolio-container #footer {
       font-family: "Menlo Regular", sans-serif;
       font-size: 12px;
