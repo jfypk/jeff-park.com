@@ -8,25 +8,32 @@
 </head>
 
 <body>
-	<section class="container">
-		<div class="nav-container">
-			<% include ../../partials/navi %>
-		</div>
-		<div class="body-container">
-			<div class="portfolio-image">
-                <img src="/assets/shaders/shader1.gif" alt="Dark Side of the Moon"></img>
-            </div>
-			<div class="portfolio-image">
-                <img src="/assets/shaders/shader2.gif" alt="Remnants"></img>
-            </div>
-			<div class="portfolio-image">
-                <img src="/assets/shaders/shader3.gif" alt="Supernova"></img>
-            </div>
-			<div class="portfolio-image">
-                <img src="/assets/shaders/shader4.gif" alt="Heatwave"></img>
-            </div>
-			<div class="portfolio-image">
+	<div id="portfolio-container">
+        <% include ../../partials/navi.ejs %>
+        <div class="portfolio-title">
+            <h3>Shaders<h3>
+            <p>GLSL<br>Fall 2017</p>
+        </div>
+        <div class="portfolio-desc">
+            <p>A series of shaders to learn about GPU rendering and 3D graphics.</p>
+        </div>
+        <div class="portfolio-video">
+            <img src="/assets/shaders/shader1.gif" alt="Dark Side of the Moon"></img>
+        </div>
+        <div class="portfolio-img-grid">
+            <div id="imgL">
                 <img src="/assets/shaders/shader5.gif" alt="Sorrow"></img>
             </div>
-	</section>
+            <div id="imgR">
+                <img src="/assets/shaders/shader2.gif" alt="Remnants"></img>
+            </div>
+            <div id="imgL">
+                <img src="/assets/shaders/shader3.gif" alt="Supernova"></img>
+            </div>
+            <div id="imgR">
+                <img src="/assets/shaders/shader4.gif" alt="Heatwave"></img>
+            </div>
+        </div>
+        <% include ../../partials/footer.ejs %>
+	</div>
 </body>

@@ -1,4 +1,26 @@
 <!-- views/partials/footer.ejs -->
 
+<script>
+    var menuOn = false;
+    var menu = null;
+    function menuClick(x) {
+        x.classList.toggle("change");
+        menuOn = !menuOn;
+        menu = document.getElementById("menu");
+        if(menuOn) {
+            menu.style.display = "block";
+        } else {
+            menu.style.display = "none";
+        }
+        console.log(menuOn);
+    }
+</script>
 
-<p class="footer-copyright">© Copyright 2018 | This website was built by Jeff Park</p>
+<div id="footer">
+    <div id="copyright">© 2018 Jeff Park</div>
+    <div id="social">
+        <a href="https://www.github.com/jpark11" target="_blank"><img src="/assets/about/gh-logo.png"></img></a>
+        <a href="https://www.linkedin.com/in/jypark03" target="_blank"><img src="/assets/about/li-logo.jpg"></img></a>
+        <a href="https://www.instagram.com/_tribecalledjeff" target="_blank"><img src="/assets/about/ig-logo.png"></img></a>
+    </div>
+</div>

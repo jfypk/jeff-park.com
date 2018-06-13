@@ -9,53 +9,47 @@
 </head>
 
 <body>
-    <section class="container"> 
-        <div class="nav-container">
-            <% include ../../partials/navi %>
+    <div id="portfolio-container"> 
+        <% include ../../partials/navi.ejs %>
+        <div class="portfolio-title">
+            <h3>Brain Rhythms</h3>
+            <p>Experience Design | Processing<br>Spring 2017</p>
         </div>
-        <div class = "body-container">
-            <div class="portfolio-title">
-                <h1>How can we use technology to design a compelling museum experience?</h1>
-                <h3>Experience Design | Processing</h3>
-            </div>
-            <div class="portfolio-text">
-                <p>Brain Rhythms is a museum experience designed to bring awareness to how our brains process sound. We reached out to Keith Doelling, an NYU Ph.D candidate researching interactions between neural oscillations in the brain and rhythms in speech and music and demonstrating the necessity of such interactions for speech comprehension. Through our museum experience, we aimed to synthesize Mr. Doelling's research into an experience that was engaging and understanding for the mass audience.</p>
-                <p>In collaboration with Hayley Hwang, Jina Jung, Lindsey Daniels, and Sean Kim. This museum experience was showcased at the NYU Leslie e-Lab on April 24, 2017.</p>
-            </div>
-            <div class="portfolio-image">
+        <div class="portfolio-desc">
+            <p>Brain Rhythms is a museum experience designed to bring awareness to how our brains process sound. We reached out to Keith Doelling, an NYU Ph.D candidate researching interactions between neural oscillations in the brain and rhythms in speech and music and demonstrating the necessity of such interactions for speech comprehension. Through our museum experience, we aimed to synthesize Mr. Doelling's research into an experience that was engaging and understanding for the mass audience.</p>
+            <p>In collaboration with <a href="http://www.hhayley.com/">Hayley Hwang</a>, <a href="http://www.jinajungitp.com/">Jina Jung</a>, <a href="http://www.lindseydoes.com/">Lindsey Daniels</a>, and <a href="https://www.meditasean.com/">Sean Kim</a>. This museum experience was showcased at the NYU Leslie e-Lab on April 24, 2017.</p>
+        </div>
+        <div class="portfolio-video">
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSWzjxhSlVWdsvs8nkxHi-GsK1kUyVJJ5y6YjuJnySM9XnShDFCFHq7r13d7Vxe4OQavQxNNUogcENE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+        </div>
+        <div class="portfolio-img-grid">
+            <div id="imgL">
                 <img src="/assets/brainrhythms/brainrhythms6.jpg" alt="Brain Rhythms"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/brainrhythms/brainrhythms7.jpg" alt="Brain Rhythms"></img>
             </div>
-            <div class="portfolio-title">
-                <h3>Process</h3>
-            </div>
-             <div class="portfolio-text">
-                <p>For this project, our group came up with a myriad of research topics that interested us. In order to narrow down our choices, we judged each research topic on the potential to create engaging technological experiences as well as how understandable the research was for our audience.</p>
-                <p>Once we had chosen a project, we reached out to our researcher, Keith Doelling, to learn as much as we could about his research. Once we got a firm understanding of his research, we began to concept possible experiences that would help a general audience understand his work. With initial concepts, we began to playstorm our ideas to get a better understanding of how engaging our experiences would be. Once we had a good idea of what we were going to build, we began to wireframe our experinces and compiled all of our research into a design brief which you can find below.</p>
-            </div>
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSWzjxhSlVWdsvs8nkxHi-GsK1kUyVJJ5y6YjuJnySM9XnShDFCFHq7r13d7Vxe4OQavQxNNUogcENE/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            <div class="portfolio-image">
+            <div id="imgL">
                 <img src="/assets/brainrhythms/brainrhythms1.JPG" alt="Playstorming"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/brainrhythms/brainrhythms2.JPG" alt="Playstorming"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgL">
                 <img src="/assets/brainrhythms/brainrhythms3.JPG" alt="Prototyping"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/brainrhythms/brainrhythms4.JPG" alt="Prototyping"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgL">
                 <img src="/assets/brainrhythms/brainrhythms8.jpg" alt="Setting up"></img>
             </div>
-            <div class="portfolio-image">
+            <div id="imgR">
                 <img src="/assets/brainrhythms/brainrhythms5.JPG" alt="Setting up"></img>
             </div>
         </div>
-    </section>
+        <% include ../../partials/footer.ejs %>
+    </div>
 </body>
 
 </html>

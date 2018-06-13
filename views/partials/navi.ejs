@@ -1,51 +1,32 @@
-<!-- views/partials/header.ejs -->
-<!-- this header is really the nav and can be placed anywhere on a page -->
+<!-- views/partials/navi.ejs -->
 
-<nav class="navbar" role="navigation">
-    <div class="nav-settings">
-    <div class="name">
-        <a href="/">Jeff Park</a>
+<div class="menu-toggle" onclick="menuClick(this)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
+<div id="menu">
+    <a href="/"><h4>Home</h4></a>
+    <a href="/work"><h4>Work</h4></a>
+    <div id="submenu">
+        <a href="/work/glitch"><h4>glitch.dance</h4></a>
+        <a href="/work/responsibly"><h4>Responsibly.me</h4></a>
+        <a href="/work/ocular"><h4>Ocular</h4></a>
+        <a href="/work/deliverance"><h4>Deliverance</h4></a>
+        <a href="/work/dress"><h4>DRESS</h4></a>
+        <a href="/work/shaders"><h4>Shaders</h4></a>
+        <a href="/work/pinocchio"><h4>Pinocchio VR</h4></a>
+        <a href="/work/accessnyc"><h4>AccessNYC</h4></a>
+        <a href="/work/brainrhythms"><h4>Brain Rhythms</h4></a>
+        <a href="/work/liquidlight"><h4>Liquid Light</h4></a>
+        <a href="/work/longboard"><h4>Longboard</h4></a>
     </div>
-        <ul class="nav-list">
-            <li><a href="#">Work</a></li>
-            <li>
-            	<ul>
-					<li class="sub">
-            			<a href="/work/responsibly">Responsibly.me</a>
-            		</li>
-            		<li class="sub">
-            			<a href="/work/ocular">Ocular</a>
-            		</li>
-            		<li class="sub">
-            			<a href="/work/deliverance">Deliverance</a>
-            		</li>
-            		<li class="sub">
-            			<a href="/work/liquidlight">Liquid Light</a>
-            		</li>
-            		<li class="sub">
-            			<a href="/work/accessnyc">Access NYC</a>
-            		</li>
-					<li class="sub">
-            			<a href="/work/brainrhythms">Brain Rhythms</a>
-            		</li>
-            		<li class="sub">
-            			<a href="/work/pinocchio">Pinocchio VR</a>
-            		</li>
-            		<li class="sub">
-            			<a href="/work/swellbeats">Swell Beats</a>
-            		</li>
-            	</ul>
-            </li>
-            <li><a href="#">Explorations</a></li>
-            <li>
-            	<ul>
-            		<li class="sub">
-            			<a href="/work/shaders">Shaders</a>
-            		</li>
-            	</ul>
-            </li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/about">About</a></li>      
-        </ul>
+    <a href="/blog"><h4>Blog</h4></a>
+    <a href="/wantstodostuff"><h4>Bucket List</h4></a>
+    <div id="social">
+        <a href="https://www.github.com/jpark11" target="_blank"><img src="/assets/about/gh-logo.png"></img></a>
+        <a href="https://www.linkedin.com/in/jypark03" target="_blank"><img src="/assets/about/li-logo.jpg"></img></a>
+        <a href="https://www.instagram.com/_tribecalledjeff" target="_blank"><img src="/assets/about/ig-logo.png"></img></a>
     </div>
-</nav>
+</div>
