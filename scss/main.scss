@@ -105,7 +105,7 @@ body {
             }
         }
         @include for-phone-only {
-            background-position: 0 550px;
+            background-position: 0 10000px;
         }
         @include for-tablet-portrait-up {
             background-position: 0 400px;

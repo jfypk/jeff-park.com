@@ -59,7 +59,7 @@ body {
         color: #FCFAFB; }
     @media (max-width: 599px) {
       body #home-container {
-        background-position: 0 550px; } }
+        background-position: 0 10000px; } }
     @media (min-width: 600px) {
       body #home-container {
         background-position: 0 400px; } }
