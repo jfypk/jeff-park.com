@@ -3,24 +3,27 @@
 <script>
     var menuOn = false;
     var menu = null;
+
     function menuClick(x) {
         x.classList.toggle("change");
         menuOn = !menuOn;
         menu = document.getElementById("menu");
-        if(menuOn) {
+        if (menuOn) {
             menu.style.display = "block";
         } else {
             menu.style.display = "none";
         }
-        console.log(menuOn);
     }
 </script>
 
 <div id="footer">
     <div id="copyright">© 2018 <a href="/">Jeff Park</a></div>
     <div id="social">
-        <a href="https://www.github.com/jpark11" target="_blank"><img src="/assets/about/gh-logo.png"></img></a>
-        <a href="https://www.linkedin.com/in/jypark03" target="_blank"><img src="/assets/about/li-logo.jpg"></img></a>
-        <a href="https://www.instagram.com/_tribecalledjeff" target="_blank"><img src="/assets/about/ig-logo.png"></img></a>
+        <a href="https://www.github.com/jpark11" target="_blank"><img src="/assets/about/gh-logo.png"></img>
+        </a>
+        <a href="https://www.linkedin.com/in/jypark03" target="_blank"><img src="/assets/about/li-logo.jpg"></img>
+        </a>
+        <a href="https://www.instagram.com/_tribecalledjeff" target="_blank"><img src="/assets/about/ig-logo.png"></img>
+        </a>
     </div>
 </div>
