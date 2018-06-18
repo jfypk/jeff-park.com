@@ -55,9 +55,23 @@ body {
       body #home-container #footer #social img {
         width: 12px;
         height: 12px; }
+      body #home-container #footer #social a {
+        color: #FCFAFB; }
     @media (max-width: 599px) {
       body #home-container {
-        background-image: none; } }
+        background-position: 0 550px; } }
+    @media (min-width: 600px) {
+      body #home-container {
+        background-position: 0 400px; } }
+    @media (min-width: 900px) {
+      body #home-container {
+        background-position: 0 100px; } }
+    @media (min-width: 1200px) {
+      body #home-container {
+        background-position: 0 -50px; } }
+    @media (min-width: 1800px) {
+      body #home-container {
+        background-position: 0 -250px; } }
   body #work-container {
     height: 100%;
     display: grid;
@@ -96,6 +110,8 @@ body {
       body #work-container #footer #social img {
         width: 12px;
         height: 12px; }
+      body #work-container #footer #social a {
+        color: #FCFAFB; }
   body #portfolio-container {
     height: 100%;
     display: grid;
@@ -179,6 +195,8 @@ body {
       body #portfolio-container #footer #social img {
         width: 12px;
         height: 12px; }
+      body #portfolio-container #footer #social a {
+        color: #FCFAFB; }
 
 #menu {
   font-family: "Menlo Regular", sans-serif;
