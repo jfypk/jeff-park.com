@@ -222,6 +222,8 @@ body {
   #menu #social img {
     width: 12px;
     height: 12px; }
+  #menu #social a {
+    color: #FCFAFB; }
   @media (max-width: 599px) {
     #menu #social a {
       color: #555; } }
